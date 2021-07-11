@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/Tianabot
-RUN git clone -b shiken https://github.com/teamofdevil-x/tiana /root/Tianabot
-WORKDIR /root/Tianabot
+# Copy Python Requirements to /root/OKUbot
+RUN git clone -b shiken https://github.com/BlackestLotus/root/OKUbot
+WORKDIR /root/OKUbot
 
-#Copy config file to /root/Tianabot
-COPY ./Tianabot/sample_config.py ./Tianabot/config.py* /root/Tianabot/Tianabot/
+#Copy config file to /root/OKUbot
+COPY ./OKUbot/sample_config.py ./OKUbot/config.py* /root/OKUbot/OKUbot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","Tianabot"]
+CMD ["python3","-m","OKUbot"]
