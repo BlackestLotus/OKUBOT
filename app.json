@@ -1,6 +1,6 @@
 {
       "name": "Orang Kurang Upaya Pro",
-      "logo": "https://telegra.ph/file/bcd7b3dec21d1c2b2583a.png",
+      "logo": "https://telegra.ph/file/451c5b417fdd2096371f4.png",
       "description": "Telegram Super Group Management.",
       "keywords": [
          "telegram",
@@ -9,7 +9,7 @@
          "manager",
          "Emcee"
       ],   
-   "repository": "https://github.com/BlackestLotus/OrangKurangUpaya",
+   "repository": "https://github.com/BlackestLotus/OKUBOT",
    "addons": [
       {
          "options": {
@@ -22,7 +22,7 @@
       "ALIVE_PIC": {
          "description": "You can get Telegraph Link From Here @vtelegraphbot",
          "required": true,
-         "value": "https://telegra.ph/file/95b045156a7b4c2fe61f2.mp4"
+         "value": "https://telegra.ph/file/968144b62559c2323bad9.mp4"
       },   
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
